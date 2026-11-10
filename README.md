@@ -1,6 +1,6 @@
 <h1 align="center">niri-better-action</h1>
 
-<p align="center">基于 niri 的滚动平铺 Wayland 合成器。在原项目上改进了移动窗口的动画逻辑,窗口为移动先缩小再放大,动画风格受macOS从右侧工作区返回桌面所启发,并优化窗口移动的连贯性,上下切换窗口不再为硬切而是保留视觉重心为当前移动的窗口,经过验证与niri和其他第三方桌面插件无冲突,后续会继续兼容上游发行</p>
+<p align="center">基于 niri 的滚动平铺 Wayland 合成器。在原项目上改进了移动窗口的动画逻辑,窗口为移动先缩小再放大,动画风格受macOS从右侧工作区返回桌面所启发,并优化窗口移动的连贯性,上下切换窗口不再为硬切而是保留视觉重心为当前移动的窗口,经过验证与niri和其他第三方桌面插件无冲突,此项目暂停维护,但仍基于开源协议继续开放</p>
 <p align="center">A scrollable-tiling Wayland compositor based on niri. Moving a column left or right shrinks the windows together, slides them apart, then eases them back to full size. Another press continues from the picture on screen.</p>
 
 <p align="center">
